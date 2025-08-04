@@ -124,7 +124,7 @@ def main():
                 print("❌ Pojištěný nebyl nalezen.")
 
         elif volba == 4:
-            # ÚPRAVA pojištěného (věk a telefon)
+            # úprava pojištěného (věk a telefon)
             jmeno = input("Zadejte jméno pojištěného k úpravě: ").strip()
             prijmeni = input("Zadejte příjmení: ").strip()
             pojisteny = seznam.vyhledat_pojisteneho(jmeno, prijmeni)
@@ -140,7 +140,7 @@ def main():
                 print("❌ Pojištěný nebyl nalezen.")
 
         elif volba == 5:
-            # SMAZÁNÍ pojištěného
+            # smazání pojištěného
             jmeno = input("Zadejte jméno pojištěného ke smazání: ").strip()
             prijmeni = input("Zadejte příjmení: ").strip()
             uspesne = seznam.odeber_pojisteneho(jmeno, prijmeni)
